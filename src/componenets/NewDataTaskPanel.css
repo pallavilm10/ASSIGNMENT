@@ -1,0 +1,53 @@
+/* NewDataTaskPanel.css */
+
+.side-panel {
+  background-color: #f4f4f4;
+  padding: 20px;
+  width: 400px; /* Adjust the width as needed */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+  box-sizing: border-box;
+}
+
+h3 {
+  color: #333;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #ff5722; /* Orange color */
+  color: #fff;
+  border: none;
+  border-radius: 20px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+  background-color: #e64a19; /* Darker orange on hover */
+}
